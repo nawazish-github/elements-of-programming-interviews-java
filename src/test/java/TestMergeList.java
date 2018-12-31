@@ -22,6 +22,24 @@ public class TestMergeList {
        Assertions.assertEquals(actual, expected);
     }
 
+    @Test
+    public void testEfficientMerger(){
+        ListNode<Integer>l1 = setupList(9, 12, 16);
+        ListNode<Integer>l2 = setupList(10, 14, 20);
+        ListNode<Integer> expected = setupList(9, 10, 12, 14, 16, 20);
+
+        ListMerger listMerger = new ListMerger();
+        ListNode<Integer>actual=listMerger.efficientMerger(l1, l2);
+
+        while (actual!= null && expected!=null){
+            Assertions.assertEquals(actual.data, expected.data);
+            actual = actual.next;
+            expected = expected.next;
+        }
+
+        Assertions.assertEquals(actual, expected);
+
+    }
     private ListNode<Integer> setupList(int...nums) {
         ListNode<Integer> head = new ListNode<Integer>();
         ListNode<Integer> tail = head;

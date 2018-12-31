@@ -1,5 +1,7 @@
 package merge;
 
+import java.util.List;
+
 public class ListMerger {
     public ListNode<Integer> merge(ListNode<Integer> l1, ListNode<Integer> l2) {
         ListNode<Integer> result = new ListNode<Integer>();
@@ -23,6 +25,30 @@ public class ListMerger {
         }
 
         return result.next;
+    }
+
+    public ListNode<Integer> efficientMerger (ListNode<Integer>l1,
+                                              ListNode<Integer>l2){
+        ListNode<Integer> ptr = new ListNode<Integer>();
+        ListNode<Integer> head = ptr;
+        while(l1 != null && l2 != null){
+            if(l1.data <= l2.data){
+                ptr.next = l1;
+                ptr = l1;
+                l1 = l1.next;
+            }else{
+                ptr.next = l2;
+                ptr = l2;
+                l2 = l2.next;
+            }
+        }
+
+        if(l1 != null){
+            ptr.next=l1;
+        }else{
+            ptr.next=l2;
+        }
+        return head.next;
     }
 }
 
