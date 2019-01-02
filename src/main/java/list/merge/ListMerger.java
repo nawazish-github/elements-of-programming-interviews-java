@@ -1,5 +1,7 @@
 package list.merge;
 
+import list.util.ListNode;
+
 public class ListMerger {
     public ListNode<Integer> merge(ListNode<Integer> l1, ListNode<Integer> l2) {
         ListNode<Integer> result = new ListNode<Integer>();

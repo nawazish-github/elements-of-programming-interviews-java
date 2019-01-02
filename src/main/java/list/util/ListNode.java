@@ -1,4 +1,4 @@
-package list.merge;
+package list.util;
 
 public class ListNode<T> {
         public T data;
