@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 public class TestMergeList {
     @Test
     public void testMergeList(){
-        ListNode<Integer>l1 = setupList(1,2,3);
-        ListNode<Integer>l2 = setupList(4,5,6);
-        ListNode<Integer> expected = setupList(1,2,3,4,5,6);
+        ListNode<Integer>l1 = setupLinkedList(1,2,3);
+        ListNode<Integer>l2 = setupLinkedList(4,5,6);
+        ListNode<Integer> expected = setupLinkedList(1,2,3,4,5,6);
 
         ListMerger listMerger = new ListMerger();
         ListNode<Integer>actual=listMerger.merge(l1, l2);
@@ -24,9 +24,9 @@ public class TestMergeList {
 
     @Test
     public void testEfficientMerger(){
-        ListNode<Integer>l1 = setupList(9, 12, 16);
-        ListNode<Integer>l2 = setupList(10, 14, 20);
-        ListNode<Integer> expected = setupList(9, 10, 12, 14, 16, 20);
+        ListNode<Integer>l1 = setupLinkedList(9, 12, 16);
+        ListNode<Integer>l2 = setupLinkedList(10, 14, 20);
+        ListNode<Integer> expected = setupLinkedList(9, 10, 12, 14, 16, 20);
 
         ListMerger listMerger = new ListMerger();
         ListNode<Integer>actual=listMerger.efficientMerger(l1, l2);
@@ -40,7 +40,7 @@ public class TestMergeList {
         Assertions.assertEquals(actual, expected);
 
     }
-    private ListNode<Integer> setupList(int...nums) {
+    private ListNode<Integer> setupLinkedList(int...nums) {
         ListNode<Integer> head = new ListNode<Integer>();
         ListNode<Integer> tail = head;
 
