@@ -1,5 +1,5 @@
-import merge.ListMerger;
-import merge.ListNode;
+import list.merge.ListMerger;
+import list.merge.ListNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

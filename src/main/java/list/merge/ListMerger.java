@@ -1,6 +1,4 @@
-package merge;
-
-import java.util.List;
+package list.merge;
 
 public class ListMerger {
     public ListNode<Integer> merge(ListNode<Integer> l1, ListNode<Integer> l2) {
