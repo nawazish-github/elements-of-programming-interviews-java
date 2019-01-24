@@ -1,4 +1,5 @@
 import list.util.ListNode;
+import org.junit.jupiter.api.Assertions;
 
 public class TestListUtil {
     public static ListNode<Integer> setupLinkedList(int...nums) {
@@ -13,4 +14,16 @@ public class TestListUtil {
         }
         return head.next;
     }
+
+    public static void assertLinkedLists(ListNode expected, ListNode actual) {
+        while (actual != null && expected != null) {
+            Assertions.assertEquals(actual.data, expected.data);
+            actual = actual.next;
+            expected = expected.next;
+        }
+
+        Assertions.assertEquals(actual, expected);
+    }
 }
+
+

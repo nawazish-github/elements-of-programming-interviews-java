@@ -13,7 +13,7 @@ public class TestListReversal {
         ListReversal listReversal = new ListReversal();
         ListNode actual = listReversal.reverseList(listNode);
 
-        assertLinkedLists(expected, actual);
+        TestListUtil.assertLinkedLists(expected, actual);
     }
 
     @Test
@@ -24,16 +24,8 @@ public class TestListReversal {
         ListReversal listReversal = new ListReversal();
         ListNode actual = listReversal.reverseSublist(listNode, 3, 6);
 
-        assertLinkedLists(expected, actual);
+        TestListUtil.assertLinkedLists(expected, actual);
     }
 
-    private void assertLinkedLists(ListNode expected, ListNode actual) {
-        while (actual != null && expected != null) {
-            Assertions.assertEquals(actual.data, expected.data);
-            actual = actual.next;
-            expected = expected.next;
-        }
 
-        Assertions.assertEquals(actual, expected);
-    }
 }
