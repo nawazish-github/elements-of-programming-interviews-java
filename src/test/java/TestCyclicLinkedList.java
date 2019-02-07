@@ -18,36 +18,4 @@ public class TestCyclicLinkedList {
 
         Assertions.assertEquals(actual, expected);
     }
-
-    @Test
-    public void testForCyclicLinkedList(){
-        ListNode l11 = new ListNode();
-        ListNode l44 = new ListNode(4, l11);
-        ListNode l33 = new ListNode (3, l44);
-        ListNode l22 = new ListNode(2, l33);
-        l11.data = 1;
-        l11.next = l22;
-
-        CyclicLinkedList cyclicLinkedList = new CyclicLinkedList();
-        ListNode actual = cyclicLinkedList.verifyCyclicLinkedList(l11);
-        ListNode expected = l11;
-
-        Assertions.assertEquals(actual, expected);
-
-         l11 = new ListNode();
-         l22 = new ListNode();
-         l44 = new ListNode(4, l22);
-         l33 = new ListNode (3, l44);
-         l22.data=2;
-         l22.next=l33;
-         l11.data = 1;
-         l11.next = l22;
-
-         actual = cyclicLinkedList.verifyCyclicLinkedList(l11);
-         expected = l22;
-
-         Assertions.assertEquals(actual, expected);
-    }
-
-
 }
