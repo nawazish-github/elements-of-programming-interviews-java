@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestCyclicLinkedList {
 
-    @Test
+    /*@Test
     public void testForNoCyclicLinkedList(){
         ListNode l4 = new ListNode(4, null);
         ListNode l3 = new ListNode (3, l4);
@@ -17,5 +17,5 @@ public class TestCyclicLinkedList {
         ListNode expected = null;
 
         Assertions.assertEquals(actual, expected);
-    }
+    }*/
 }
