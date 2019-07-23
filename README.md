@@ -11,4 +11,8 @@
 ## Dynamic Programming
 
 - Write a function that takes in an array of positive integers and returns an integer representing the maximum
-      sum of non-adjacent elements in the array. If a sum cannot be generated, the function should return 0 (!EPI).
+sum of non-adjacent elements in the array. If a sum cannot be generated, the function should return 0 (!EPI).
+
+- Given an array of positive integers representing coin denominations and a single non-negative integer representing
+a target amount of money, implement a function that returns the number of ways to make change for that target
+amount using the given coin denominations. Note that an unlimited amount of coind is at your disposal. 
