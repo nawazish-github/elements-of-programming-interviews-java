@@ -5,34 +5,31 @@ import java.util.Arrays;
 public class MinCoinsExchangeProblem {
     public static void main(String[] args) {
         //int[] denoms = new int[]{1,2,5};
-        int[] denoms = new int[]{2,1};
+        //int[] denoms = new int[]{1,2,4};
+        //int[] denoms = new int[]{1,5,6, 9};
+        //int[] denoms = new int[]{5,10,25};
+        //int[] denoms = new int[]{25, 10, 5};
+        int[] denoms = new int[]{2, 4};
+        //int[] denoms = new int[]{5};
         Arrays.sort(denoms);
-        int[] denominations = new int[denoms.length+1];
-        System.arraycopy(denoms,0,denominations, 1, denoms.length);
-
-        //System.out.println(minCoinsExchange(11, arr));
-        System.out.println(minCoinsExchange(3, denominations));
+        System.out.println(minCoinsExchange(7, denoms));
     }
 
     private static int minCoinsExchange(int target, int[] denoms){
-        int [][] cache = new int[denoms.length][target+1];
-        initializeCache(cache, target);
-        for (int d=1; d<denoms.length; d++){
-            for (int t = 1; t<=target; t++){
-                if (denoms[d] <= t){
-                    cache[d][t] = Math.min(1+cache[d][t-denoms[d]], cache[d-1][t]);
-                }else{
-                    cache[d][t] = cache[d-1][t];
+        int[] targets = new int[target+1];
+        Arrays.fill(targets, Integer.MAX_VALUE);
+        targets[0] = 0;
+        for (int d : denoms){
+            for (int t = 0; t<=target; t++){
+                if(d <= t){
+                    int prevMinCoins = targets[t - d];
+                    if (prevMinCoins != Integer.MAX_VALUE)
+                        targets[t] = Math.min(1 + prevMinCoins, targets[t]);
                 }
             }
         }
-        return cache[denoms.length-1][target];
-    }
-
-    private static void initializeCache(int[][] cache, int target) {
-        int i = 0;
-        for(int t=1; t<=target; t++){
-            cache[i][t] = Integer.MAX_VALUE;
-        }
+        if (targets[target] == Integer.MAX_VALUE)
+            return -1;
+        return targets[target];
     }
 }
