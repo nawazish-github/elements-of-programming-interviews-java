@@ -10,8 +10,8 @@ public class YoungestCommonAncestor {
                                                      AncestralTree desendantOne,
                                                      AncestralTree descendantTwo){
 
-        int depthOne = getDepth(desendantOne);
-        int depthTwo = getDepth(descendantTwo);
+        int depthOne = getDepth(desendantOne, root);
+        int depthTwo = getDepth(descendantTwo, root);
 
         if (depthTwo > depthOne){
             for (int i =1; i<=(depthTwo-depthOne); i++){
@@ -26,25 +26,21 @@ public class YoungestCommonAncestor {
         return moveInTandem(desendantOne, descendantTwo);
     }
 
-    private int getDepth(AncestralTree descendant){
-        AncestralTree temp = descendant;
+    private int getDepth(AncestralTree descendant, AncestralTree root){
         int c = 0;
-        while (temp != null){
-            temp = temp.node;
+        while (descendant != root){
+            descendant = descendant.node;
             ++c;
         }
-        return c-1;
+        return c;
     }
 
     private  AncestralTree moveInTandem (AncestralTree one, AncestralTree two){
-        while(one != null || two != null){
-            if (one.name == two.name)
-                return one;
-            else
-                one = one.node;
-                two = two.node;
+        while(one != two){
+            one = one.node;
+            two = two.node;
         }
-        return null;
+        return one;
     }
 }
 
