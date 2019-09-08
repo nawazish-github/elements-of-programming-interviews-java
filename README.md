@@ -9,6 +9,7 @@
 - Detect Overlapping Lists
 - You are given two linked-lists representing two non-negative integers. The digits are stored in reverse order and
   each of their nodes contain a single digit. Add the two numbers and return it as a linked list. (Microsoft)
+- Write a function to delete Kth node from behind in a single linked list
 
 ## Dynamic Programming
 
@@ -24,3 +25,8 @@ amount using the given coin denominations. Note that an unlimited amount of coin
 ## Tree
 
 - Solve a descendant tree to find the Youngest Common Ancestor given the root node, and two descendant nodes.
+
+## Recursion
+
+- Write a function to generate all permutations of a given array of elements
+- Write a function to generate Powerset of a given set
