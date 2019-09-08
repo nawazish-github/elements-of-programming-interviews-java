@@ -10,7 +10,13 @@ public class PowerSet {
         input.add(1);
         input.add(2);
         input.add(3);
+        input.add(4);
         powerSet.generatePowerSet(input);
+
+        ArrayList<ArrayList<Integer>> ps = new ArrayList<>();
+        ps.add(new ArrayList<>());
+        powerSet.generatePowersetRecursively(input, ps, 0);
+        System.out.println(ps);
     }
 
     private void generatePowerSet(ArrayList<Integer> input) {
@@ -25,6 +31,20 @@ public class PowerSet {
             }
         }
         System.out.println(powerSet);
+    }
+
+    private void generatePowersetRecursively(ArrayList<Integer> input, ArrayList<ArrayList<Integer>> powerSet, int i){
+        if (input.size() == i){
+            return;
+        }else{
+            int size = powerSet.size();
+            for (int j = 0; j < size; j++) {
+                ArrayList<Integer> copySubset = new ArrayList<>(powerSet.get(j));
+                copySubset.add(input.get(i));
+                powerSet.add(copySubset);
+            }
+            generatePowersetRecursively(input, powerSet, i+1);
+        }
     }
 }
 
