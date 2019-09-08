@@ -29,4 +29,4 @@ amount using the given coin denominations. Note that an unlimited amount of coin
 ## Recursion
 
 - Write a function to generate all permutations of a given array of elements
-- Write a function to generate Powerset of a given set
+- Write a function to generate Powerset of a given set. Two solutions: iterative and recursive
