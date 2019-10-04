@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class ReverseStackTest {
 
@@ -29,5 +30,18 @@ public class ReverseStackTest {
         ReverseStackRecursively reverseStackRecursively = new ReverseStackRecursively();
         ArrayList<Integer> reverseStack = reverseStackRecursively.reverseStack(input);
         Assertions.assertArrayEquals(input.toArray(), reverseStack.toArray());
+    }
+
+    @Test
+    public void reverseTest1(){
+        Stack<Integer> stack = new Stack<>();
+        stack.push( 1);
+        stack.push( 2);
+        stack.push( 3);
+        stack.push( 4);
+
+        ReverseStackRecursively reverseStackRecursively = new ReverseStackRecursively();
+        Stack<Integer> reverse = reverseStackRecursively.reverse(stack);
+        Assertions.assertArrayEquals(stack.toArray(), reverse.toArray());
     }
 }
