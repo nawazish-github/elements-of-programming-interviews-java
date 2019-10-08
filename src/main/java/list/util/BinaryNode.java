@@ -10,4 +10,9 @@ public class BinaryNode <E> {
         this.left = left;
         this.right = right;
     }
+
+    @Override
+    public String toString(){
+        return "left: " + this.left + " data " + this.data + " right: " + this.right;
+    }
 }
