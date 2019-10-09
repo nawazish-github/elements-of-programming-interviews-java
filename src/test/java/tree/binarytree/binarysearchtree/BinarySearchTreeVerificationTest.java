@@ -50,4 +50,19 @@ public class BinarySearchTreeVerificationTest {
         boolean actual = binarySearchTreeVerification.verifyBST(root);
         Assertions.assertEquals(false, actual);
     }
+
+
+    @Test
+    public void verifyBSTTest5(){
+        BinaryNode<Integer> one     = new BinaryNode<>(1, null, null );
+        BinaryNode<Integer> three     = new BinaryNode<>(3, null, null);
+        BinaryNode<Integer> four     = new BinaryNode<>(4, null, null);
+        BinaryNode<Integer> eight     = new BinaryNode<>(8, null, null);
+        BinaryNode<Integer>  two    = new BinaryNode<>(2, one, three);
+        BinaryNode<Integer>  seven    = new BinaryNode<>(7, four, eight);
+        BinaryNode<Integer> root = new BinaryNode<>(5, two, seven);
+        BinarySearchTreeVerification binarySearchTreeVerification = new BinarySearchTreeVerification();
+        boolean actual = binarySearchTreeVerification.verifyBST(root);
+        Assertions.assertEquals(false, actual);
+    }
 }

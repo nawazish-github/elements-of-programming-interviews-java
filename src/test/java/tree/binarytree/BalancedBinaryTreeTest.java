@@ -12,7 +12,8 @@ public class BalancedBinaryTreeTest {
         BinaryNode y = new BinaryNode('y', z, null);
         BinaryNode x = new BinaryNode('x', y, null);
 
-        BalancedBinaryTree balancedBinaryTree = new BalancedBinaryTree();
+        //BalancedBinaryTree balancedBinaryTree = new BalancedBinaryTree();
+        BalancedBinaryTreeRepeat balancedBinaryTree = new BalancedBinaryTreeRepeat();
         boolean actual = balancedBinaryTree.isBalancedBinaryTree(x);
 
         Assertions.assertEquals(false, actual);
