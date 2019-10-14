@@ -25,7 +25,6 @@ import java.util.List;
  * ]
  */
 class WordBreakII {
-    private HashSet<String> wordDict;
 
     public List<String> wordBreak(String s, List<String> wordDict) {
         List<String> sentences = new ArrayList<>();
