@@ -54,10 +54,4 @@ class WordBreakII {
                 wordBreak(s, j , subStr, partSent, sentences, wordDict);
         }
     }
-
-    public static void main(String[] args) {
-        WordBreakII wordBreakII = new WordBreakII();
-        List<String> sentences = wordBreakII.wordBreak("catsanddog", Arrays.asList("cat", "cats", "and", "sand", "dog"));
-        System.out.println(sentences);
-    }
 }
