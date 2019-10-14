@@ -1,6 +1,8 @@
 package list.util;
 
 public class RandListNode<T> {
+    public RandListNode() {}
+
     public RandListNode(T data, RandListNode<T> next) {
         this.data = data;
         this.next = next;
