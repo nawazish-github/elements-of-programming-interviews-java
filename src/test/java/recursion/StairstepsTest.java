@@ -14,5 +14,7 @@ public class StairstepsTest {
         Assertions.assertEquals(actual, 2);
         actual = stairsteps.stairSteps(4);
         Assertions.assertEquals(actual, 8);
+
+        System.out.println(stairsteps.stairStepsCombinations(2));
     }
 }
