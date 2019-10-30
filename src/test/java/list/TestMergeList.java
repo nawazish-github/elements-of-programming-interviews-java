@@ -1,3 +1,5 @@
+package list;
+
 import list.merge.ListMerger;
 import list.util.ListNode;
 import org.junit.jupiter.api.Assertions;

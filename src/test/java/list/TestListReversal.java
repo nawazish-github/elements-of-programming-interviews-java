@@ -1,6 +1,7 @@
+package list;
+
 import list.reversal.ListReversal;
 import list.util.ListNode;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class TestListReversal {
