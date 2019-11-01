@@ -6,7 +6,25 @@ import java.util.List;
 public class Combinations {
 
     public List<List<Integer>> combinations (int[] arr){
-        return combinations (arr, 0);
+        //return combinations (arr, 0);
+        return combinations(arr, 0, new ArrayList<List<Integer>>(), new ArrayList<>());
+    }
+
+    private List<List<Integer>> combinations(int[] arr, int i, ArrayList<List<Integer>> results, ArrayList<Integer> path) {
+        if(i == arr.length){
+            results.add(path);
+            return results;
+        }
+
+       int elem = arr[i];
+
+        ArrayList<Integer> pathWithElement = new ArrayList<>(path);
+        pathWithElement.add(elem);
+
+        combinations(arr, i+1, results, pathWithElement);
+        combinations(arr, i+1, results, path);
+
+        return results;
     }
 
     private List<List<Integer>> combinations(int[] arr, int i) {
@@ -25,6 +43,8 @@ public class Combinations {
         }
         return results;
     }
+
+
 
     public static void main(String[] args) {
         Combinations combinations = new Combinations();
