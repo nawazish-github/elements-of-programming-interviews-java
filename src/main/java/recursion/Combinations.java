@@ -38,8 +38,11 @@ public class Combinations {
         List<List<Integer>> results = new ArrayList<>();
         for(List<Integer> list : combinations(arr, i+1)){
             results.add(new ArrayList<>(list));
-            list.add(elem);
-            results.add(new ArrayList<>(list));
+            if(list.size() < 3){
+                list.add(elem);
+                if(list.size() == 3)
+                results.add(new ArrayList<>(list));
+            }
         }
         return results;
     }
