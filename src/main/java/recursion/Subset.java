@@ -6,10 +6,11 @@ import java.util.List;
 public class Subset {
 
     public List<List<Integer>> subset(int[] arr){
-        List<List<Integer>> results = new ArrayList<>();
+        /*List<List<Integer>> results = new ArrayList<>();
         subset(arr, results, new ArrayList<Integer>(), 0); //top-down
-        return results;
+        return results;*/
         //return subset(arr, 0); //bottom up
+        return subsetIterative(arr);
     }
 
     private void subset(int[] arr, List<List<Integer>> results, List<Integer> partialList, int i) {
@@ -41,6 +42,25 @@ public class Subset {
         return returnable;
     }
 
+    private List<List<Integer>>subsetIterative(int[] arr){
+        List<Integer> list = new ArrayList<>();
+        List<List<Integer>> results = new ArrayList<>();
+        results.add(list);
+
+        for (int i = 0; i < arr.length; i++) {
+            List<List<Integer>> tmpRes = new ArrayList<>();
+            for (List<Integer> l: results) {
+                List<Integer> tmpList = new ArrayList<>(l);
+                tmpRes.add(new ArrayList<>(tmpList));
+                tmpList.add(arr[i]);
+                tmpRes.add(tmpList);
+            }
+            results.clear();
+            results.addAll(tmpRes);
+        }
+
+        return results;
+    }
     public static void main(String[] args) {
         Subset subset = new Subset();
         List<List<Integer>> subset1 = subset.subset(new int[]{1, 2, 3});
