@@ -128,7 +128,7 @@ public class Subset {
         //subset.subsetX(new int[]{1,2,3}, 0, new ArrayList<Integer>(), results);
         //List<List<Integer>> lists = subset.subsetY(new int[]{1, 2, 3}, 0);
 
-        List<List<Integer>> lists = subset.restrictedSubset(new int[]{1, 2, 3}, 0, 2, 0);
+        List<List<Integer>> lists = subset.restrictedSubset(new int[]{1, 2, 3}, 0, 2:, 0);
         System.out.println(lists);
     }
 }
