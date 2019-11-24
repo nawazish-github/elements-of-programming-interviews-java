@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06437ffb-3b8c-4e94-8c4c-166c3b26f7b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/PartialSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recursion/Subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursion/Subset.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Subset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="130" column="84" selection-start-line="130" selection-start-column="84" selection-end-line="130" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combinations2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="46" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sleep</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/list/LinkedListCloner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/list/RandTestUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/list/LinkedListClonerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestListUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stack/ReverseAStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stack/ReverseStackRecursively.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stack/ReverseStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/binarytree/BalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stack/SizeOfLongestConsequetiveBranchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/binarytree/SizeOfLongestConsequetiveBranch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/binarytree/TreeToDoublyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/list/util/BinaryNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/binarytree/TreeToDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/binarytree/binarysearchtree/BinarySearchTreeVerification.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/binarytree/binarysearchtree/BinarySearchTreeVerificationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/string/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/string/PermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/binarytree/BalancedBinaryTreeRepeat.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/binarytree/BalancedBinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/MinCoinChangeProblem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/MinCoinChangeProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/CelebrityProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nodes/JumpNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/JumpFirstOrdering.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/JumpFirstOrderingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/list/util/RandListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/SearchALinkedListWithJumps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/WordBreakIITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/PermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/string/MinCharsToPalindrom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/string/MinCharsToPalindromTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Flatten.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/FlattenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/WordBreakII.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/GreatestCommonDivisorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/StairstepsII.java" />
+        <option value="$PROJECT_DIR$/src/test/java/recursion/StairstepsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Stairsteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Combinations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Combinations2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Stairsteps2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/IntegerKnapsack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/PartialSubset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/recursion/Subset.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elements-of-programming-interviews-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elements-of-programming-interviews-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33333334" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="list" />
+      <recent name="recursion" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dynamic_programming" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="recursion" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Subset">
+    <configuration name="IntegerKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.IntegerKnapsack" />
+      <module name="elements-of-programming-interviews-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.PartialSubset" />
+      <module name="elements-of-programming-interviews-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestrictedCombination3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RestrictedCombination3" />
+      <module name="elements-of-programming-interviews-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestrictedCombination4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RestrictedCombination4" />
+      <module name="elements-of-programming-interviews-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Subset" />
+      <module name="elements-of-programming-interviews-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Subset" />
+        <item itemvalue="Application.PartialSubset" />
+        <item itemvalue="Application.RestrictedCombination4" />
+        <item itemvalue="Application.RestrictedCombination3" />
+        <item itemvalue="Application.IntegerKnapsack" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06437ffb-3b8c-4e94-8c4c-166c3b26f7b9" name="Default Changelist" comment="" />
+      <created>1559554652360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559554652360</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add all the posibilities to reach to the top of the stair">
+      <created>1572428187068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572428187068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.28 at 22h 00m 24s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommonDivisorTest_gcdTest - 2019.10.29 at 22h 28m 48s.xml">
+      <configuration name="GreatestCommonDivisorTest.gcdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 14h 59m 31s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 00m 18s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 01m 18s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 01m 34s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 01m 58s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 02m 33s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 04m 10s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StairstepsTest_stairStepsTest - 2019.10.30 at 15h 05m 33s.xml">
+      <configuration name="StairstepsTest.stairStepsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26556778" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498779" visible="true" weight="0.20714286" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.30429864" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7619048" weight="0.34502262" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50061053" side_tool="true" weight="0.30429864" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.327551" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.32579187" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32967034" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add all the posibilities to reach to the top of the stair" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all the posibilities to reach to the top of the stair" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dynamic_programming/MinCoinsExchangeProblem.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/SingleCycleCheck.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/array/SingleCycleCheck.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/backtracking/Permutation.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/backtracking/PermutationTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/backtracking/Permutation.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/backtracking/Permutation.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/removal/RemoveKthNodeFromEnd.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/list/removal/RemoveKthNodeFromEnd.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tree/binarytree/TreeToDoublyLinkedListTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tree/binarytree/TreeToDoublyLinkedList.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tree/binarytree/binarysearchtree/BinarySearchTreeVerification.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/Stairsteps.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/Combinations2.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="Math.min(edits[i-1][j-1], Math.min(edits[i-1][j], edits[i][j-1]))" language="JAVA" />
+        <watch expression="Math.min(edits[i-1][j-1], Math.min(edits[i-1][j], edits[i][j-1]))+1" language="JAVA" />
+        <watch expression="from.charAt(j-1)" language="JAVA" />
+        <watch expression="to.charAt(i-1)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/elements_of_programming_interviews_java$SmallestIntegerThatDoesnotExistInArray.ic" NAME="SmallestIntegerThatDoesnotExistInArray Coverage Results" MODIFIED="1563263739678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>array.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Math.min(edits[i-1][j-1], Math.min(edits[i-1][j], edits[i][j-1]))+1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>to.charAt(i-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>from.charAt(j-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Math.min(edits[i-1][j-1], Math.min(edits[i-1][j], edits[i][j-1]))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>results</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>restrictedCombinations(arr, i+1, currSize+1, target)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.substring(i, j+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>one.name == two.name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrix[i][j]==1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>idx+jump</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>edits[i-1][j-1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stack/ReverseStackTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stack/ReverseStackRecursively.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/binarytree/SizeOfLongestConsequetiveBranch.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stack/SizeOfLongestConsequetiveBranchTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/list/util/BinaryNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/binarytree/TreeToDoublyLinkedListTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/binarytree/TreeToDoublyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/binarytree/binarysearchtree/BinarySearchTreeVerification.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/binarytree/binarysearchtree/BinarySearchTreeVerificationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/string/PermutationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/Permutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/binarytree/BalancedBinaryTreeRepeat.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/binarytree/BalancedBinaryTreeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/binarytree/BalancedBinaryTree.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/MinCoinChangeProblem.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/MinCoinChangeProblemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/list/util/JumpNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/CelebrityProblem.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/JumpFirstOrderingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/list/util/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/SearchALinkedListWithJumps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/list/util/RandListNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/JumpFirstOrdering.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+          <folding>
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/WordBreakIITest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Permutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/PermutationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/MinCharsToPalindrom.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/string/MinCharsToPalindromTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Flatten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/FlattenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/GreatestCommonDivisorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/StairstepsII.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/WordBreakII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/recursion/StairstepsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Stairsteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Stairsteps2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/IntegerKnapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombination4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/RestrictedCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/PartialSubset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Combinations2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/recursion/Subset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="130" column="84" selection-start-line="130" selection-start-column="84" selection-end-line="130" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33333334" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33333334" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>elements-of-programming-interviews-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33333334" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

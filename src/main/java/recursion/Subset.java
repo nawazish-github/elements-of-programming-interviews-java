@@ -61,9 +61,74 @@ public class Subset {
 
         return results;
     }
+
+    private void subsetX(int[] arr, int i, List<Integer> partialList, List<List<Integer>> results){
+        if(i == arr.length){
+            results.add(partialList);
+            return;
+        }
+
+        subsetX(arr, i+1, partialList, results);
+        List<Integer> list = new ArrayList<Integer>(partialList);
+        list.add(arr[i]);
+        subsetX(arr, i+1, list, results);
+    }
+
+    private List<List<Integer>>  subsetY(int[] arr, int i){
+        if(i == arr.length){
+            List<List<Integer>> results = new ArrayList<>();
+            results.add(new ArrayList<>());
+            return results;
+        }
+
+
+        List<List<Integer>> results = subsetY(arr, i+1);
+        List<List<Integer>> toReturn = new ArrayList<>();
+        for(List<Integer> l : results){
+            toReturn.add(new ArrayList<>(l));
+            l.add(arr[i]);
+            toReturn.add(new ArrayList<>(l));
+        }
+
+        return toReturn;
+
+    }
+
+    private List<List<Integer>> restrictedSubset(int[] arr, int i, int k, int currLength){
+        if(i == arr.length && currLength != k) return new ArrayList<List<Integer>>();
+        if (k > arr.length) return new ArrayList<List<Integer>>();
+        if(currLength == k){
+            List<List<Integer>> result = new ArrayList<>();
+            result.add(new ArrayList<>());
+            return result;
+        }
+
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        List<List<Integer>> inclList = restrictedSubset(arr, i+1, k,  currLength+1);
+        List<List<Integer>> exclList = restrictedSubset(arr, i+1, k,  currLength);
+
+        for(List<Integer> list : inclList){
+            list.add(arr[i]);
+            result.add(list);
+        }
+        result.addAll(exclList);
+
+        return result;
+    }
+
+
     public static void main(String[] args) {
         Subset subset = new Subset();
-        List<List<Integer>> subset1 = subset.subset(new int[]{1, 2, 3});
-        System.out.println(subset1);
+        //List<List<Integer>> subset1 = subset.subset(new int[]{1, 2, 3});
+        //System.out.println(subset1);
+
+        //List<List<Integer>> results = new ArrayList<>();
+        //subset.subsetX(new int[]{1,2,3}, 0, new ArrayList<Integer>(), results);
+        //List<List<Integer>> lists = subset.subsetY(new int[]{1, 2, 3}, 0);
+
+        List<List<Integer>> lists = subset.restrictedSubset(new int[]{1, 2, 3}, 0, 2, 0);
+        System.out.println(lists);
     }
 }
