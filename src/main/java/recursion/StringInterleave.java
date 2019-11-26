@@ -6,7 +6,7 @@ import java.util.List;
 public class StringInterleave {
 
     public List<String> interleaveStrings (String s1,  String s2){
-        List<String> result = new ArrayList<>();
+        /*List<String> result = new ArrayList<>();
         int length = s1.length() + s2.length();
         int s1Len = s1.length();
         int s2Len = s2.length();
@@ -17,7 +17,9 @@ public class StringInterleave {
 
         List<List<Integer>> positionalCombinations = combinations(positionalArray, s1Len);
         compose(positionalCombinations, result, length, s1, s2);
-        return result;
+        return result;*/
+
+        return stringInterleaveII(s1, s2, 0, 0, new StringBuffer(), new ArrayList<>());
     }
 
     private void compose(List<List<Integer>> combos, List<String> result, int length, String s1, String s2) {
@@ -61,6 +63,34 @@ public class StringInterleave {
             result.add(list);
         }
         result.addAll(excl);
+
+        return result;
+    }
+
+    private List<String> stringInterleaveII(String s1, String s2, int i, int j, StringBuffer partialStr,
+                                            List<String> result){
+
+        /*if(i == s1.length() && j == s2.length()){
+            result.add(partialStr.toString());
+            return result;
+        }*/
+
+        if(partialStr.length() == s1.length()+s2.length()){
+            result.add(partialStr.toString());
+            return result;
+        }
+
+        if(i <  s1.length()){
+            partialStr.append(s1.charAt(i));
+            stringInterleaveII(s1, s2, i+1, j, partialStr, result);
+            partialStr.deleteCharAt(partialStr.length()-1);
+        }
+
+        if(j < s2.length()){
+            partialStr.append(s2.charAt(j));
+            stringInterleaveII(s1, s2, i, j+1, partialStr, result);
+            partialStr.deleteCharAt(partialStr.length()-1);
+        }
 
         return result;
     }
