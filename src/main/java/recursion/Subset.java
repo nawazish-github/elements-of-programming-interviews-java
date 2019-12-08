@@ -93,7 +93,7 @@ public class Subset {
 
     }
 
-    private List<List<Integer>> restrictedSubset(int[] arr, int i, int k, int currLength){
+    public List<List<Integer>> restrictedSubset(int[] arr, int i, int k, int currLength){
         if(i == arr.length && currLength != k) return new ArrayList<List<Integer>>();
         if (k > arr.length) return new ArrayList<List<Integer>>();
         if(currLength == k){
