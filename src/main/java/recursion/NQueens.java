@@ -46,13 +46,6 @@ public class NQueens {
     }
 
     public static void main(String[] args) {
-        /*NQueens nQueens = new NQueens();
-        List<List<Integer>> result = new ArrayList<>();
-        nQueens.nQueens(3, 0, 3, new ArrayList<>(), result);
-        List<List<Cell>> resultCells = new ArrayList<>();
-        nQueens.nQueens(4, 0, 0, 4, new ArrayList<>(), resultCells);*/
-        //System.out.println(resultCells); //can filter out on resultCells to get the exact position(s)
-
         NQueens nQueens = new NQueens();
         List<List<Cell>> resultCells = new ArrayList<>();
         resultCells.clear();
