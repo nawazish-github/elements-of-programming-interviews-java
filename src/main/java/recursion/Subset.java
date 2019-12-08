@@ -129,6 +129,22 @@ public class Subset {
         subsetBacktracking(i+1, arr, partialList, result);
     }
 
+    private void subset(int[] arr, int i, int k, List<Integer> partial, List<List<Integer>> result){
+        //if(i >= arr.length) return; // incorrect
+        if(i == arr.length && partial.size()!=k) return;
+        if(k > arr.length) return;
+        if (partial.size() > k) return;
+        if(partial.size() == k){
+            result.add(new ArrayList<>(partial));
+            return;
+        }
+
+        partial.add(arr[i]);
+        subset(arr, i+1, k, partial, result);
+        partial.remove(partial.size()-1);
+        subset(arr, i+1, k, partial, result);
+    }
+
 
     public static void main(String[] args) {
         Subset subset = new Subset();
@@ -141,7 +157,8 @@ public class Subset {
 
         //List<List<Integer>> lists = subset.restrictedSubset(new int[]{1, 2, 3}, 0, 2, 0);
         List<List<Integer>> lists = new ArrayList<>();
-        subset.subsetBacktracking(0,new int[]{1, 2, 3}, new ArrayList<>(), lists);
+        //subset.subsetBacktracking(0,new int[]{1, 2, 3}, new ArrayList<>(), lists);
+        subset.subset(new int[]{1, 2, 3}, 0, 2, new ArrayList<>(), lists);
         System.out.println(lists);
     }
 }
