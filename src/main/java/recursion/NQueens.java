@@ -17,7 +17,7 @@ public class NQueens {
         nQueens(dim, row+1, 0, numQueens, partial, result);
     }*/
 
-    //Row-by Iteration
+    //Row-by iteration
     public void nQueens(int dim, int numQueens, int row, Set<Integer> availableCols,
                         Set<Integer> leftDiag, Set<Integer> rightDiag, List<Cell> partial,
                         List<List<Cell>> result){
@@ -45,6 +45,34 @@ public class NQueens {
         nQueens(dim, numQueens, row+1,  availableCols, leftDiag, rightDiag, partial, result);
     }
 
+    //Col-by iteration
+    public void nQueens (Set<Integer> availableRows, int col, int numQueens, int dim, Set<Integer>leftDiag,
+                               Set<Integer> rightDiag, List<Cell> partial, List<List<Cell>>result){
+
+        if(partial.size() == numQueens){
+            result.add(new ArrayList<>(partial));
+            return;
+        }
+
+        if(col == dim) return;
+
+        for (Integer row: availableRows.toArray(new Integer[]{})) {
+            if (leftDiag.contains(row-col) || rightDiag.contains(row+col)) continue;
+            partial.add(new Cell(row, col));
+            availableRows.remove(row);
+            leftDiag.add(row-col);
+            rightDiag.add(row+col);
+
+            nQueens(availableRows, col+1, numQueens, dim, leftDiag, rightDiag, partial, result);
+            partial.remove(new Cell(row, col));
+            availableRows.add(row);
+            leftDiag.remove(row-col);
+            rightDiag.remove(row+col);
+        }
+
+        nQueens(availableRows, col+1, numQueens, dim, leftDiag, rightDiag, partial, result);
+    }
+
     public static void main(String[] args) {
         NQueens nQueens = new NQueens();
         List<List<Cell>> resultCells = new ArrayList<>();
@@ -57,6 +85,10 @@ public class NQueens {
         }
         nQueens.nQueens(dim, numQueens, 0, availableColumns,
                 new HashSet<>(), new HashSet<>(),  new ArrayList<>(), resultCells);
+        System.out.println(resultCells);
+        resultCells.clear();
+        nQueens.nQueens(availableColumns, 0, numQueens, dim, new HashSet<>(),
+                new HashSet<>(), new ArrayList<>(), resultCells);
         System.out.println(resultCells);
     }
 }
