@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntegerKnapsack {
-    final static int capacity = 2;
+    final static int capacity = 3;
 
     public static void main(String[] args) {
         Item toothpaste = new Item("toothpaste", 2);
-        Item toothbrush = new Item("toothbrush", 3);
+        Item toothbrush = new Item("toothbrush", 4);
         List<Item> items = new ArrayList<>();
         items.add(toothpaste);
         items.add(toothbrush);
 
-        int maxValue = knapsack(items);
-        System.out.println(maxValue);
+        //int maxValue = knapsack(items);
+        List<Item> result = knapSackBottomUp(0, capacity, items);
+        System.out.println(result);
     }
 
     private static int knapsack(List<Item> items) {
@@ -31,7 +32,6 @@ public class IntegerKnapsack {
             }
         }
         return currMax;
-
     }
 
     private static List<List<Item>> knapsack(List<Item> items, int i) {
@@ -50,6 +50,25 @@ public class IntegerKnapsack {
         }
         return combinations;
     }
+
+    private static List<Item> knapSackBottomUp(int i, int currWeight, List<Item> items){
+        if(i == items.size()){
+            return new ArrayList<>();
+        }
+        List<Item> excl = knapSackBottomUp(i+1, currWeight, items);
+        if(items.get(i).value <= currWeight){
+            List<Item> incl = knapSackBottomUp(i+1, currWeight-items.get(i).value, items);
+            if(sum(incl) + items.get(i).value > sum (excl)){
+                incl.add(items.get(i));
+                return incl;
+            }
+        }
+        return excl;
+    }
+
+    private static int sum(List<Item> items) {
+        return items.stream().map(item -> item.value).mapToInt(Integer::intValue).sum();
+    }
 }
 
 class Item{
@@ -59,5 +78,10 @@ class Item{
     public Item(String name, int value) {
         this.name = name;
         this.value = value;
+    }
+
+    @Override
+    public String toString(){
+        return this.name+ " "+this.value;
     }
 }
