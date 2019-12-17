@@ -145,6 +145,31 @@ public class Subset {
         subset(arr, i+1, k, partial, result);
     }
 
+    private List<List<Integer>> subsetBottomUp(int[] arr, int i){
+        /**
+         * Base case cos after exhausting the entire input array,
+         * the subset which would be left would be a List of an empty list
+         * Or the null subset!
+         */
+        if(i == arr.length){
+            List<List<Integer>> result = new ArrayList<>();
+            result.add(new ArrayList<>());
+            return result;
+        }
+
+        List<List<Integer>> excl = subsetBottomUp(arr, i+1);
+        List<List<Integer>> incl = subsetBottomUp(arr, i+1);
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        result.addAll(new ArrayList<>(excl));
+        for(List<Integer> list : incl){
+            list.add(arr[i]);
+            result.add(list);
+        }
+        return result;
+    }
+
 
     public static void main(String[] args) {
         Subset subset = new Subset();
@@ -158,7 +183,10 @@ public class Subset {
         //List<List<Integer>> lists = subset.restrictedSubset(new int[]{1, 2, 3}, 0, 2, 0);
         List<List<Integer>> lists = new ArrayList<>();
         //subset.subsetBacktracking(0,new int[]{1, 2, 3}, new ArrayList<>(), lists);
-        subset.subset(new int[]{1, 2, 3}, 0, 2, new ArrayList<>(), lists);
-        System.out.println(lists);
+        /*subset.subset(new int[]{1, 2, 3}, 0, 2, new ArrayList<>(), lists);
+        System.out.println(lists);*/
+
+        List<List<Integer>> result = subset.subsetBottomUp(new int[]{1, 2, 3, 4}, 0);
+        System.out.println(result);
     }
 }
