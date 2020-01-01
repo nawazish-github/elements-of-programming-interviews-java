@@ -9,6 +9,9 @@ import java.util.List;
  * Given number of people and an array of sizes of Umbrella.
  * Find all combinations of umbrellas that would fit the peoples exactly.
  * Also find the minimum, umbrella which could be used to exactly fit all people.
+ * Input people = 6; umbrella sizes: [3, 5]: output => 2 (3+3)
+ * Input people = 6; umbrella sizes: [3, 6]: output => 1 (6)
+ * Input people = 7; umbrella sizes: [3, 7]: output => 0 (6)
  */
 public class UmbrellaProblem {
 
