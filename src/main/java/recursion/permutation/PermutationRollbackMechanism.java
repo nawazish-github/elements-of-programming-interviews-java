@@ -18,10 +18,10 @@ public class PermutationRollbackMechanism {
         }
 
         Integer number = arr.get(i);
-        partial.add(number);
-        permutate(i+1, arr, res, partial);
-        partial.remove(partial.size()-1);
-        permutate(i+1, arr, res, partial);
+        partial.add(number);//add
+        permutate(i+1, arr, res, partial);//recurse
+        partial.remove(partial.size()-1); //rollback
+        permutate(i+1, arr, res, partial);//recurse
     }
 
     public static void main(String[] args) {
