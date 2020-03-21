@@ -20,7 +20,7 @@ public class PermutationRollbackMechanism {
         Integer number = arr.get(i);
         partial.add(number);
         permutate(i+1, arr, res, partial);
-        partial.remove(number);
+        partial.remove(partial.size()-1);
         permutate(i+1, arr, res, partial);
     }
 
@@ -29,5 +29,4 @@ public class PermutationRollbackMechanism {
         List<List<Integer>> permutate = permutationRollbackMechanism.permutate(List.of(1, 2, 3));
         System.out.println(permutate);
     }
-
 }
