@@ -1,9 +1,9 @@
-package recursion.permutation;
+package recursion.combination;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Permutation {
+public class Combination {
     public List<List<Integer>> permutate(List<Integer> arr){
         List<List<Integer>> res = new ArrayList<>();
         permutate(0, arr, res, new ArrayList<Integer>());
@@ -25,8 +25,8 @@ public class Permutation {
     }
 
     public static void main(String[] args) {
-        Permutation permutation = new Permutation();
-        List<List<Integer>> permutate = permutation.permutate(List.of(1, 2, 3));
+        Combination combination = new Combination();
+        List<List<Integer>> permutate = combination.permutate(List.of(1, 2, 3));
         System.out.println(permutate);
     }
 }

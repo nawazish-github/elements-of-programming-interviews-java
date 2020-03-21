@@ -1,14 +1,13 @@
-package recursion.permutation;
+package recursion.combination;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class BasicPermutation {
+public class BasicCombination {
 
     public static void main(String[] args) {
-        BasicPermutation basicPermutation = new BasicPermutation();
-        basicPermutation.permutations(List.of(1,2,3,4));
+        BasicCombination basicCombination = new BasicCombination();
+        basicCombination.permutations(List.of(1,2,3,4));
 
     }
 

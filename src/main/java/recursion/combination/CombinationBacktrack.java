@@ -1,9 +1,9 @@
-package recursion.permutation;
+package recursion.combination;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PermutationRollbackMechanism {
+public class CombinationBacktrack {
     public List<List<Integer>> permutate(List<Integer> arr){
         List<List<Integer>> res = new ArrayList<>();
         permutate(0, arr, res, new ArrayList<Integer>());
@@ -25,8 +25,8 @@ public class PermutationRollbackMechanism {
     }
 
     public static void main(String[] args) {
-        PermutationRollbackMechanism permutationRollbackMechanism = new PermutationRollbackMechanism();
-        List<List<Integer>> permutate = permutationRollbackMechanism.permutate(List.of(1, 2, 3));
+        CombinationBacktrack combinationBacktrack = new CombinationBacktrack();
+        List<List<Integer>> permutate = combinationBacktrack.permutate(List.of(1, 2, 3));
         System.out.println(permutate);
     }
 }
