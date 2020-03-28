@@ -1,7 +1,5 @@
 package recursion.combination;
 
-import recursion.NQueens;
-
 import java.util.ArrayList;
 import java.util.List;
 
