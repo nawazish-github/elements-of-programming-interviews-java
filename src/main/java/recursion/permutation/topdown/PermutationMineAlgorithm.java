@@ -18,11 +18,11 @@ public class PermutationMineAlgorithm {
         }
 
         for (int j = 0; j < arr.size(); j++) {
-            List<Integer> copyPartial = new ArrayList<>(partial);
-            copyPartial.add(arr.get(j));
+            partial.add(arr.get(j));
             ArrayList<Integer> copyList = new ArrayList<>(arr);
             copyList.remove(j);
-            permutate(copyList, i, n, copyPartial, result);
+            permutate(copyList, i, n, partial, result);
+            partial.remove(partial.size()-1);
         }
     }
 
