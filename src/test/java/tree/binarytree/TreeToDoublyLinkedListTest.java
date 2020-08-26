@@ -1,10 +1,11 @@
 package tree.binarytree;
 
 import list.util.BinaryNode;
-import org.junit.jupiter.api.Test;
 
 public class TreeToDoublyLinkedListTest {
-    @Test
+
+    //@Test
+    //@Ignore
     public void test1(){
         BinaryNode<Integer> two = new BinaryNode<>(2, null, null);
         BinaryNode<Integer> three = new BinaryNode<>(3, null, null);
