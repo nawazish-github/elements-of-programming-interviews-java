@@ -3,7 +3,9 @@ package recursion.divideandconnquer;
 import tree.util.BinaryNode;
 import tree.util.Solution;
 
-//In list `right` points to the next next and `left` points to the prev node
+/**
+ * Given a binary tree, return head of the linkedlist while traversing the binary tree in inorder traversal.
+ */
 public class BinaryTreeToLinkedList {
 
     public Solution<Integer> binaryTreeToLinkedList(BinaryNode<Integer> root){
