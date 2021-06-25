@@ -9,6 +9,6 @@ class BinarySearchTest {
     public void test () {
         BinarySearch bs = new BinarySearch();
         int search = bs.search(new int[]{-1, 0, 3, 5, 9, 12}, 9);
-        assertEquals(5, search);
+        assertEquals(4, search);
     }
 }
